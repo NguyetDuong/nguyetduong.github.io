@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nguyet Duong</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png">
+	
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Economica' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,700' rel='stylesheet' type='text/css'>
+	
+	<!-- Mobile Stylesheet -->
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+	<!-- Load JQuery -->
+
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+</head>
+<body>
+
+
+	<script>
+	// navigation changes
+	$(document).ready(function(){
+	    $("#item1").click(function(){
+	        $("#GWC").hide();
+	        $("#info").show();
+	        $("#about").hide();
+	    });
+	});
+	$(document).ready(function(){
+	    $("#item2").click(function(){
+	        $("#GWC").show();
+	        $("#info").hide();
+	        $("#about").hide();
+	    });
+	});
+	$(document).ready(function(){
+	    $("#item3").click(function(){
+	        $("#GWC").hide();
+	        $("#info").hide();
+	        $("#about").show();
+	    });
+	});
+
+	// changing the gwc images
+	function changeGWC2() {
+        document.getElementById("gwc-change").src = "gwc2.jpg"
+    }
+    function changeGWC1() {
+        document.getElementById("gwc-change").src = "gwc1.jpg"
+    }
+	</script>
+	
+	<div id="header">
+		<div id="head1">Nguyet Minh Duong</div>
+	</div>
+
+	<div id="links">
+		<ul>
+		  <li><a id="item1">Home</a></li>
+		  <li><a id="item3">About</a></li>
+		  <li><a id="item2">GWC</a></li>
+		  <li><a href="#contact">Contact</a></li>
+		  
+		</ul>
+	</div>
+
+	<div class="content">
+		<div id="info">
+			<img src="front.jpg">
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. </p>  <br />
+
+			<p>Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh.</p>  <br />
+
+			<p>Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. </p> <br />
+
+			<p>Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt </p>
+		</div>
+
+		<div id="GWC" style="display: none">
+			<img src="gwc1.jpg" id="gwc-change" onmouseover="changeGWC2();" onmouseout="changeGWC1();">
+			<p>Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. </p> <br />
+
+			<p>Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt </p>
+		</div>
+
+		<div id="about" style="display:none">
+			<img src="about.png">
+			<p> <h1>Who is the Queen of Boba?</h1>
+				<b>Name:</b> Nguyet Duong, but often go by <i>Mimi</i> for simplicity. 
+				<br />
+				<b>Age:</b> 19
+				<br />
+				<b>School:</b> University of California, Berkeley
+				<br />
+				
+
+
+			<p>
+				Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt 
+			</p>
+
+		</div>
+	</div>
+
+	
+
+	<script>
+	// $(document).ready(function(){
+	// 	$("#test").click(function(){
+	//     	$("#Navigation").show();
+	//     	//$("#div1").load("untitled.html");
+	// 	});
+	// });
+    
+	</script>
+
+
+
+
+</body>
+</html>
