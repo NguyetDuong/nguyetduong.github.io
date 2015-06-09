@@ -121,7 +121,7 @@ b {
 /*----- Images -----*/
 
 #info img {
-	width: 250px;
+	/*width: 250px;*/
 	/*opacity: 0.80;
     filter: alpha(opacity=80);*/
 	box-shadow: 2px 2px 5px #888888;
@@ -131,7 +131,7 @@ b {
 }
 
 #GWC img {
-	width: 500px;
+	/*width: 500px;*/
 	box-shadow: 2px 2px 5px #888888;
 	display: block;
 	margin-left: auto;
@@ -141,7 +141,7 @@ b {
 }
 
 #about img {
-	width: 215px;
+	/*width: 215px;*/
 	box-shadow: 2px 2px 5px #888888;
 	float: left;
 	margin-right: 20px;
