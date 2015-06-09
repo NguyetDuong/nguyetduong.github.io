@@ -198,7 +198,6 @@ li.active a, li.active a:hover {
     border-radius: 10px;
     box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
     background: #fff;
-    padding-bottom: 35px;
 }
  
 .tab {
@@ -209,12 +208,3 @@ li.active a, li.active a:hover {
     display: block;
 }
 
-#map-canvas {
-    width: 250px;
-    height: 250px;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
-}
