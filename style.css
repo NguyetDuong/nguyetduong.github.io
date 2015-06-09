@@ -29,6 +29,18 @@ b {
 	color: #0C1C29;
 }
 
+a {
+	color: #3C6488;
+	text-decoration: none;
+	transition: all linear 0.25s;
+}
+
+a:hover {
+	color: #FF62A0;
+	transition: all linear 0.25s;
+	text-decoration: none;
+}
+
 .content {
 	margin-right: 30px;
 	margin-left: 30px;
