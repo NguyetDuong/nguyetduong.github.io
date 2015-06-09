@@ -20,6 +20,9 @@
 
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 
@@ -27,30 +30,43 @@
 	<script>
 	// navigation changes
 	$(document).ready(function(){
-	    $("#item1").click(function(){
+	    $("#itemHome").click(function(){
 	        $("#GWC").hide();
 	        $("#info").show();
 	        $("#about").hide();
 	        $("#head1").show();
 	        $("#code").hide();
+	        $("#contactMe").hide();
 	    });
 	});
 	$(document).ready(function(){
-	    $("#item2").click(function(){
+	    $("#itemGWC").click(function(){
 	        $("#GWC").show();
 	        $("#info").hide();
 	        $("#about").hide();
 	        $("#head1").hide();
 	        $("#code").show();
+	        $("#contactMe").hide();
 	    });
 	});
 	$(document).ready(function(){
-	    $("#item3").click(function(){
+	    $("#itemAbout").click(function(){
 	        $("#GWC").hide();
 	        $("#info").hide();
 	        $("#about").show();
 	        $("#head1").show();
 	        $("#code").hide();
+	        $("#contactMe").hide();
+	    });
+	});
+	$(document).ready(function(){
+	    $("#itemContact").click(function(){
+	        $("#GWC").hide();
+	        $("#info").hide();
+	        $("#about").hide();
+	        $("#head1").show();
+	        $("#code").hide();
+	        $("#contactMe").show();
 	    });
 	});
 
@@ -61,6 +77,11 @@
     function changeGWC1() {
         document.getElementById("gwc-change").src = "gwc1.jpg"
     }
+
+    // allowing the about me tabs to work
+    $(function() {
+    	$( "#accordion" ).accordion();
+  	});
 	</script>
 	
 	<div id="header">
@@ -70,10 +91,10 @@
 
 	<div id="links">
 		<ul>
-		  <li><a id="item1">Home</a></li>
-		  <li><a id="item3">About</a></li>
-		  <li><a id="item2">GWC</a></li>
-		  <li><a href="#contact">Contact</a></li>
+		  <li><a id="itemHome">Home</a></li>
+		  <li><a id="itemAbout">About</a></li>
+		  <li><a id="itemGWC">GWC</a></li>
+		  <li><a id="itemContact">Contact</a></li>
 		  
 		</ul>
 	</div>
@@ -113,7 +134,50 @@
 			<p>
 				Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt 
 			</p>
+		</div>
 
+		<div id="contactMe" style="display:none">
+			<h3>Email Address</h3>
+			nguyetduong@berkeley.edu
+			<br />
+			<br />
+			<h3>Phone Number</h3>
+			(415) 374 - 9191
+			<br />
+			<br />
+			<h3>Visit My Offices!</h3>
+			
+			<!-- The Dividers for the Offices -->
+			<div class="tabs">
+			    <ul class="tab-links">
+			        <li class="active"><a href="#tab1">ShareTea</a></li>
+			        <li><a href="#tab2">723</a></li>
+			        <li><a href="#tab3">Purple Kow</a></li>
+			        <li><a href="#tab4">BOBO Drinks</a></li>
+			    </ul>
+			 
+			    <div class="tab-content">
+			        <div id="tab1" class="tab active">
+			            <p>Tab #1 content goes here!</p>
+			            <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis.</p>
+			        </div>
+			 
+			        <div id="tab2" class="tab">
+			            <p>Tab #2 content goes here!</p>
+			            <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
+			        </div>
+			 
+			        <div id="tab3" class="tab">
+			            <p>Tab #3 content goes here!</p>
+			            <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum ri.</p>
+			        </div>
+			 
+			        <div id="tab4" class="tab">
+			            <p>Tab #4 content goes here!</p>
+			            <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
+			        </div>
+			    </div>
+			</div>
 		</div>
 	</div>
 
