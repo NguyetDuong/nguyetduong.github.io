@@ -1,3 +1,4 @@
+/*----- Specifics for the entire page -----*/
 * {
 	margin: 0;
 }
@@ -14,8 +15,7 @@ html {
 
 body {
 	min-height: 100%;
-	/*background-color: #F2F5F7;*/
-	background-color: rgba(242, 245, 247, .7);
+	background-color: #F2F5F7;
 	max-width: 800px;
 	padding: 60px 30px 30px;
 	border-left: 1px dashed #8AB3CF;
@@ -24,6 +24,19 @@ body {
     font-family: 'Crimson Text', serif;
     /*box-shadow: 12px 0 15px -4px rgba(163, 163, 163, 0.5), -12px 0 8px -4px rgba(163, 163, 163, 0.5);*/
 }
+
+b {
+	color: #0C1C29;
+}
+
+.content {
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 15px;
+	text-align: justify;
+}
+
+/*----- navigation bar -----*/
 
 #links {
 	width: 100%;
@@ -83,6 +96,7 @@ body {
 	/*text-align: center;*/
 }
 
+/*----- headers -----*/
 #head1 {
 	/*padding-top: 10px;*/
 	text-align: center;
@@ -104,12 +118,7 @@ body {
 	/*border-bottom: 1px dashed #8AB3CF;*/
 }
 
-.content {
-	margin-right: 30px;
-	margin-left: 30px;
-	margin-top: 15px;
-	text-align: justify;
-}
+/*----- Images -----*/
 
 #info img {
 	width: 250px;
@@ -140,6 +149,72 @@ body {
 	margin-top: 10px;
 }
 
-b {
-	color: #0C1C29;
+/*----- Tabs -----*/
+.tabs {
+    width: 100%;
+    display: inline-block;
+}
+ 
+/*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.tab-links li {
+    margin: 0px 5px;
+    float: left;
+    list-style: none;
+}
+ 
+.tab-links a {
+    padding: 9px 15px;
+    display: inline-block;
+    border-radius: 3px 3px 0px 0px;
+    background: #CCEAFF;
+    font-size: 16px;
+    color: #424242;
+    transition: all linear 0.15s;
+    text-decoration: none;
+    font-family: 'Economica', sans-serif;
+}
+
+.tab-links a:hover {
+    background: #DFF2FF;
+    text-decoration: none;
+    color: #FF62A0;
+}
+ 
+li.active a, li.active a:hover {
+    background: #fff;
+    color: #4c4c4c;
+}
+ 
+/*----- Content of Tabs -----*/
+.tab-content {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
+    background: #fff;
+    padding-bottom: 35px;
+}
+ 
+.tab {
+	display: none;
+}
+ 
+ .tab.active {
+    display: block;
+}
+
+#map-canvas {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
 }
