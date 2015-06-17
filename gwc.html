@@ -23,52 +23,7 @@
 </head>
 <body>
 	
-	<script>
-	// navigation changes
-	$(document).ready(function(){
-	    $("#itemHome").click(function(){
-	    	window.location.href = "index.html"
-	    });
-	});
-	$(document).ready(function(){
-	    $("#itemGWC").click(function(){
-	        $("#GWC").show();
-	        $("#info").hide();
-	        $("#about").hide();
-	        $("#head1").hide();
-	        $("#code").show();
-	        $("#contactMe").hide();
-	    });
-	});
-	$(document).ready(function(){
-	    $("#itemAbout").click(function(){
-	        $("#GWC").hide();
-	        $("#info").hide();
-	        $("#about").show();
-	        $("#head1").show();
-	        $("#code").hide();
-	        $("#contactMe").hide();
-	    });
-	});
-	$(document).ready(function(){
-	    $("#itemContact").click(function(){
-	        $("#GWC").hide();
-	        $("#info").hide();
-	        $("#about").hide();
-	        $("#head1").show();
-	        $("#code").hide();
-	        $("#contactMe").show();
-	    });
-	});
-
-	// changing the gwc images
-	function changeGWC2() {
-        document.getElementById("gwc-change").src = "gwc2.jpg"
-    }
-    function changeGWC1() {
-        document.getElementById("gwc-change").src = "gwc1.jpg"
-    }
-	</script>
+	<script src="scriptgwc.js"></script>
 
 	<div id="header">
 		<div id="code">Girls Who Code</div>
@@ -87,17 +42,17 @@
 	<div class="content">
 		<div id="GWC">
 			<img src="gwc1.jpg" id="gwc-change" onmouseover="changeGWC2();" onmouseout="changeGWC1();">
-			<div id="map-canvas"></div>
-			<p>Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. </p> <br />
+			<center><h2>Girls Rule!</h2></center> <br>
+			<p>Above is an image of a group of wonderful teachers and TAs who I went through training with! Picture is taken by Miss Esther Fensel on Mister Esteban Rojas's camera. You can see Esteban in the third row from the front, all the way to the left. </p> <br />
 
-			<p>Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt </p>
+			<h3>Open House Message</h3>
+			<p>Hi, I'm Nguyet -- one of the TAs for this summer. Unfortunately, I am not able to attend the open house because I have a very nasty bug in my system and I want to get over it as soon as possible so that I can give my all on Monday. Plus, I don't think any of you (students, parents, and coworkers) want to catch my bug. </p> <br />
+			<p>A little bit about me is that I am an incoming third year at UC Berkeley. My name is a little bit hard to pronounce so feel free to call me Mimi! Choose whichever one you feel most comfortable calling me by. I'm super excited to get to know everyone and help y'all see why I love computers (or technology in general) the way I do. I swear, I'm practically glued to my laptop and phone. 
+			</p> <br />
+			<p>If my hands aren't on my phone or laptop, you'll probably find me attached to my boba cup. I am seriously addicted to that stuff -- it is sort of like my coffee. Hopefully by the end of summer, I can have all of us do a boba run, like I did with many of the teachers who were at the same training as I was! </p> <br />
+
 		</div>
 	</div>
-
-	
-
-
-
 
 </body>
 </html>
