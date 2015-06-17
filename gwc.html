@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nguyet Duong</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png">
+	
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Economica' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	
+	<!-- Mobile Stylesheet -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+	<!-- Load JQuery -->
+
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	
+	<script>
+	// navigation changes
+	$(document).ready(function(){
+	    $("#itemHome").click(function(){
+	    	window.location.href = "index.html"
+	    });
+	});
+	$(document).ready(function(){
+	    $("#itemGWC").click(function(){
+	        $("#GWC").show();
+	        $("#info").hide();
+	        $("#about").hide();
+	        $("#head1").hide();
+	        $("#code").show();
+	        $("#contactMe").hide();
+	    });
+	});
+	$(document).ready(function(){
+	    $("#itemAbout").click(function(){
+	        $("#GWC").hide();
+	        $("#info").hide();
+	        $("#about").show();
+	        $("#head1").show();
+	        $("#code").hide();
+	        $("#contactMe").hide();
+	    });
+	});
+	$(document).ready(function(){
+	    $("#itemContact").click(function(){
+	        $("#GWC").hide();
+	        $("#info").hide();
+	        $("#about").hide();
+	        $("#head1").show();
+	        $("#code").hide();
+	        $("#contactMe").show();
+	    });
+	});
+
+	// changing the gwc images
+	function changeGWC2() {
+        document.getElementById("gwc-change").src = "gwc2.jpg"
+    }
+    function changeGWC1() {
+        document.getElementById("gwc-change").src = "gwc1.jpg"
+    }
+	</script>
+
+	<div id="header">
+		<div id="code">Girls Who Code</div>
+	</div>
+
+	<div id="links">
+		<ul>
+		  <li><a id="itemHome">Home</a></li>
+		  <li><a id="itemMain">Main Page</a></li>
+		  <li><a id="itemOffice">Office Hours</a></li>
+		  <li><a id="itemLinks">Links</a></li>
+		  
+		</ul>
+	</div>
+
+	<div class="content">
+		<div id="GWC">
+			<img src="gwc1.jpg" id="gwc-change" onmouseover="changeGWC2();" onmouseout="changeGWC1();">
+			<div id="map-canvas"></div>
+			<p>Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. </p> <br />
+
+			<p>Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt </p>
+		</div>
+	</div>
+
+	
+
+
+
+
+</body>
+</html>
