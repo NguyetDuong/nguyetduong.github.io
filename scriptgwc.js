@@ -1,4 +1,3 @@
-
 // navigation changes
 $(document).ready(function(){
     $("#itemHome").click(function(){
@@ -6,35 +5,18 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function(){
-    $("#itemGWC").click(function(){
+    $("#itemMain").click(function(){
         $("#GWC").show();
-        $("#info").hide();
-        $("#about").hide();
-        $("#head1").hide();
-        $("#code").show();
-        $("#contactMe").hide();
+        $("#office").hide();
     });
 });
 $(document).ready(function(){
-    $("#itemAbout").click(function(){
+    $("#itemOffice").click(function(){
         $("#GWC").hide();
-        $("#info").hide();
-        $("#about").show();
-        $("#head1").show();
-        $("#code").hide();
-        $("#contactMe").hide();
+        $("#office").show();
     });
 });
-$(document).ready(function(){
-    $("#itemContact").click(function(){
-        $("#GWC").hide();
-        $("#info").hide();
-        $("#about").hide();
-        $("#head1").show();
-        $("#code").hide();
-        $("#contactMe").show();
-    });
-});
+
 
 // changing the gwc images
 function changeGWC2() {
