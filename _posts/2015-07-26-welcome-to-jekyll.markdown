@@ -1,7 +1,26 @@
 ---
 layout: post
-title:  "Hi Shreya!!"
+title:  "Welcome to Jekyll!"
+author: Nguyet Duong
 date:   2015-07-26 10:49:45
-categories: shreya sucks work
+categories: jekyll update
 ---
-I just wanted to say that Shreya Radish sucks. She needs to learn to be nicer to me. Mostly since I just put this up. Otherwise, I will go and make a rude Facebook post about you. Actually, now that I have a blog. I will definitely post something up here about you... so be warned???
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
