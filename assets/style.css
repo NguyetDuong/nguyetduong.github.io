@@ -48,13 +48,13 @@ a:hover {
 	/*font-size: 35pt;
 	letter-spacing: 1pt;*/
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 40%;
+	font-size: 300%;
 	letter-spacing: 2pt;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 300;
 	line-height: 30px;
-
+	text-align: center;
 }
 
 .site-header-tag {
@@ -73,12 +73,25 @@ a:hover {
 	letter-spacing: 1pt;
 	margin-top: 35px;
 	padding: 10px 0 10px 0;
+	display: inline-block;
+	text-transform: lowercase;
+}
+
+.site-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav li {
+	display: inline;
 }
 
 .site-nav a {
 	color: #ddd;
 	padding-left: 25px;
 	padding-right: 25px;
+	width: 40px;
 }
 
 /* ----- Side Bar ----- */

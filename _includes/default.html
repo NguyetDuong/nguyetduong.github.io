@@ -20,12 +20,17 @@
 			<br>
 			<span class="site-header-tag">keep my boba in check</span>
 			<nav class="site-nav">
+				<ul>
 				{% for page in site.pages %}
          			{% if page.title %}
-          				<a href="{{ page.url | prepend: site.baseurl }}"> {{ page.title }}</a> 
+          				<li><a href="{{ page.url | prepend: site.baseurl }}"> {{ page.title }}</a> </li>
           			{% endif %}
         		{% endfor %}
+        		<ul>
+
+        		
 			</nav>
+
 		</header>
 
 		<div class="content">
