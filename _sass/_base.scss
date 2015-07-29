@@ -4,8 +4,8 @@
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
+    /*margin: 0;
+    padding: 0;*/
 }
 
 
@@ -14,13 +14,18 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-weight: 300;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    width: 70%;
+    margin: 0px auto;
+    /*padding: 60px 30px 30px;*/
+    padding-top: 60px;
+}
+
+html {
+    background-color: #2d2e2c;
+    background-image: url('img/bg.png');
+    height: 100%;
 }
 
 
@@ -32,7 +37,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    /*margin-bottom: $spacing-unit / 2;*/
 }
 
 
@@ -51,11 +56,11 @@ img {
  * Figures
  */
 figure > img {
-    display: block;
+    /*display: block;*/
 }
 
 figcaption {
-    font-size: $small-font-size;
+    /*font-size: $small-font-size;*/
 }
 
 
@@ -64,13 +69,13 @@ figcaption {
  * Lists
  */
 ul, ol {
-    margin-left: $spacing-unit;
+    /*margin-left: $spacing-unit;*/
 }
 
 li {
     > ul,
     > ol {
-         margin-bottom: 0;
+         /*margin-bottom: 0;*/
     }
 }
 
@@ -80,7 +85,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    
 }
 
 
@@ -89,17 +94,13 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: #9ec4bb;
     text-decoration: none;
+}
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
-    &:hover {
-        color: $text-color;
-        text-decoration: underline;
-    }
+a:hover {
+    color: #62cfc9;
+    text-decoration: none;
 }
 
 
@@ -108,7 +109,7 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
+    /*color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
@@ -117,7 +118,7 @@ blockquote {
 
     > :last-child {
         margin-bottom: 0;
-    }
+    }*/
 }
 
 
@@ -154,7 +155,7 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    /*max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
@@ -167,7 +168,7 @@ pre {
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
-    }
+    }*/
 }
 
 
@@ -177,11 +178,11 @@ pre {
  */
 %clearfix {
 
-    &:after {
+    /*&:after {
         content: "";
         display: table;
         clear: both;
-    }
+    }*/
 }
 
 
