@@ -10,7 +10,6 @@ html {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 100;
 	font-size: 14pt;
-	min-width: 650px;
 }
 
 body {
@@ -131,7 +130,6 @@ a:hover {
 
 .content-date {
 	font-size: 12pt;
-	margin-bottom: 15px;
 	margin-left: 35px;
 	width: 63%;
 }
