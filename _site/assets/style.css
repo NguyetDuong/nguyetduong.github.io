@@ -7,7 +7,7 @@ html {
 	background-color: #fff;
 	background-image: url("/assets/media/bg.png");
 	height: 100%;
-	font-family: 'Helvetica Neue', serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 100;
 	font-size: 14pt;
 	min-width: 650px;
@@ -16,7 +16,6 @@ html {
 body {
 	min-height: 100%;
 	background-color: #fff;
-	max-width: 66%;
 	/*padding: 80px 30px 30px;*/
 	padding-top: 80px;
 	margin: 0px auto;
@@ -58,6 +57,7 @@ a:hover {
 }
 
 .site-header-tag {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 13pt;
 	letter-spacing: 0.5pt;
 }
