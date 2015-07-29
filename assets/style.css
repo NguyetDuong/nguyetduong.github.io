@@ -15,7 +15,7 @@ html {
 body {
 	min-height: 100%;
 	background-color: #fff;
-	max-width: 66%;
+	width: 80%;
 	/*padding: 80px 30px 30px;*/
 	padding-top: 80px;
 	margin: 0px auto;
@@ -48,12 +48,13 @@ a:hover {
 	/*font-size: 35pt;
 	letter-spacing: 1pt;*/
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 35pt;
+	font-size: 40%;
 	letter-spacing: 2pt;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 300;
 	line-height: 30px;
+
 }
 
 .site-header-tag {
@@ -69,7 +70,6 @@ a:hover {
 	width: 100%;
 	color: #dddddd;
 	font-size: 15pt;
-	word-spacing: 50pt;
 	letter-spacing: 1pt;
 	margin-top: 35px;
 	padding: 10px 0 10px 0;
@@ -77,6 +77,8 @@ a:hover {
 
 .site-nav a {
 	color: #ddd;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 /* ----- Side Bar ----- */
