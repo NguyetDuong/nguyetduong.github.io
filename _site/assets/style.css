@@ -16,6 +16,7 @@ html {
 body {
 	min-height: 100%;
 	background-color: #fff;
+	max-width: 66%;
 	/*padding: 80px 30px 30px;*/
 	padding-top: 80px;
 	margin: 0px auto;
@@ -35,7 +36,7 @@ a:hover {
 .site-header-general {
 	width: 100%;
 	text-align: center;
-	font-family: 'Helvetica Neue', serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 100;
 	color: #2d2e2c;
 }
@@ -64,6 +65,7 @@ a:hover {
 
 /* ----- Navigation ----- */
 .site-nav {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	background-color: #2d2e2c;
 	width: 100%;
 	color: #dddddd;
