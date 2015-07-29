@@ -10,6 +10,7 @@ html {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 100;
 	font-size: 14pt;
+	min-width: 550px;
 }
 
 body {
@@ -75,7 +76,7 @@ a:hover {
 	padding: 10px 0 10px 0;
 	display: inline-block;
 	text-transform: lowercase;
-	text-align: left;
+	float: center;
 }
 
 .site-nav ul {
