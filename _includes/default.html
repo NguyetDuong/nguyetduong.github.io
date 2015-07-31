@@ -9,32 +9,48 @@
 		<title>{{ site.title }}</title>
 		
 		<link href='http://fonts.googleapis.com/css?family=Anonymous+Pro' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="/assets/style.css">
-		 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-		 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		
+		<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
+		<link rel="stylesheet" type="text/css" href="/assets/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="/assets/style.css">
+	
+		<script src="/assets/jquery.min.js"></script>
+		<script src="/assets/bootstrap/bootstrap.min.js"></script>
+
+		<link href='http://fonts.googleapis.com/css?family=Anonymous+Pro' rel='stylesheet' type='text/css'>
+		
 	</head>
+
 	<body>
 		<header class="site-header-general">
-			<a class="site-header-title" href="{{ site.baseurl }}">Nguyet Minh Duong</a>
+			<a class="site-header-title" href="{{ site.baseurl }}">{{ site.title }}</a>
 			<br>
-			<span class="site-header-tag">keep my boba in check</span>
-			<nav class="site-nav">
-				<ul>
-				{% for page in site.pages %}
-         			{% if page.title %}
-          				<li><a href="{{ page.url | prepend: site.baseurl }}"> {{ page.title }}</a> </li>
-          			{% endif %}
-        		{% endfor %}
-        		<ul>
-
+			<span class="site-header-tag">{{ site.tag }}</span>
         		
-			</nav>
+			<nav class="navbar navbar-custom navbar-static-top">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+			    		<span class="icon-bar"></span>
+			    		<span class="icon-bar"></span>
+			    		<span class="icon-bar"></span>
+			    	</button>
+			 	</div>
+			  	<div class="collapse navbar-collapse">
+			    	<ul class="nav navbar-nav">
+			      		{% for page in site.pages %}
+		         			{% if page.title %}
+		          				<li><a href="{{ page.url | prepend: site.baseurl }}"> {{ page.title }}</a> </li>
+		          			{% endif %}
+		        		{% endfor %}
+			    	</ul>
+			  	</div>
+			</nav> 
 
 		</header>
 
-		<div class="content">
-		{% for post in site.posts limit:2 %}
+<!-- 		<div class="content">{% for post in site.posts limit:3 %}
 			<a class="title-link" href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
 			<p class="content-date">{{ post.date | date: "%d %B %Y"}}</p>
 			
@@ -44,11 +60,73 @@
 					<a href="{{ post.url }}"><i><br>read more</i></a></span>
 				</p>
 			</span>
-		{% endfor %}
+		{% endfor %}</div> -->
+
+
+<!-- 		<div class="hidden-xs">
+			<div class="right-bar">
+			    <h1>Recent Posts</h1>
+			    <ul>
+			        {% for post in site.posts limit:5 %}
+			          <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+			        {% endfor %}
+			    </ul>
+			</div>
+		</div>
+ -->
+
+ 		<div class="container-fluid">
+		    <div class="row-fluid">
+		        <div class="style-bar hidden-xs col-md-2">
+		        	<!-- ABOUT ME --> 
+		        	<h3 class="style-bar">About Me</h3>
+		        	<img src="/assets/media/selfie.png" class="selfie">
+
+		        	<p>A wild bobaholic (and apparently Starbucks now too) on the loose, writing sarcastic, and thoughtful reflections about her life. </p>
+		        	<p class="about-links">{ <a href="/about/">about me</a> } { <a href="">about blog</a> } </p>
+		        	<p><center>
+		        		<a href=""><img width="15%" src="/assets/media/connect/github.png"></a>
+		        		<a href=""><img width="15%" src="/assets/media/connect/instagram.png"></a>
+		        		<a href=""><img width="15%" src="/assets/media/connect/linkedin.png"></a>
+		        		<a href=""><img width="15%" src="/assets/media/connect/twitter.png"></a>
+		        	</center></p>
+		        	<p><center>
+		        		<a href=""><img width="15%" src="/assets/media/connect/rss.png"></a>
+		        		<a href=""><img width="15%" src="/assets/media/connect/bloglovin.png"></a>
+		        	</center></p>
+		        	<!-- END OF ABOUT ME -->
+
+		        	<!-- RECENT POSTS -->
+				    <h3 class="style-bar">Recent Posts</h3>
+				    <ul class="bar-content">
+				        {% for post in site.posts limit:5 %}
+				          <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+				        {% endfor %}
+				    </ul>
+				    <!-- END OF RECENT POSTS -->
+				</div>
+			    <div class="col-md-10">
+			      <div class="content">{% for post in site.posts limit:3 %}
+						<a class="title-link" href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+						<p class="content-date">{{ post.date | date: "%d %B %Y"}}</p>
+						
+						<span class="content-text">
+							<p class="content-text">{{ post.content | truncatehtml | truncatewords: 100 }} 
+							<span style="float:right">
+								<a href="{{ post.url }}"><i><br>read more</i></a></span>
+							</p>
+						</span>
+					{% endfor %}
+				</div>
+			    </div>
+			</div>
 		</div>
 
 
 
 
+		
+		
 	</body>
+
 </html>

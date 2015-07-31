@@ -4,23 +4,21 @@
 }
 
 html {
+	min-height: 100%;
 	background-color: #fff;
 	background-image: url("/assets/media/bg.png");
 	height: 100%;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 100;
 	font-size: 14pt;
-	min-width: 550px;
 }
 
 body {
 	min-height: 100%;
 	background-color: #fff;
 	width: 80%;
-	/*padding: 80px 30px 30px;*/
-	padding-top: 80px;
+	padding-top: 120px;
 	margin: 0px auto;
-	overflow: auto;
 }
 
 a {
@@ -30,6 +28,7 @@ a {
 
 a:hover {
 	color: #62cfc9;
+	text-decoration: none;
 }
 
 /* ----- Header ----- */
@@ -49,7 +48,7 @@ a:hover {
 	/*font-size: 35pt;
 	letter-spacing: 1pt;*/
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 300%;
+	font-size: 36pt;
 	letter-spacing: 2pt;
 	font-style: normal;
 	font-variant: normal;
@@ -64,58 +63,62 @@ a:hover {
 	letter-spacing: 0.5pt;
 }
 
-/* ----- Navigation ----- */
-.site-nav {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	background-color: #2d2e2c;
-	width: 100%;
-	color: #dddddd;
-	font-size: 15pt;
-	letter-spacing: 1pt;
-	margin-top: 35px;
-	padding: 10px 0 10px 0;
+/* ------ Navigation ------ */
+.navbar-custom {
+	background-color:#2d2e2c;
+    color:#ddd;
+  	border-radius:0;
+  	margin-top: 40px;
+}
+
+.navbar-custom .navbar-nav {
 	display: inline-block;
-	text-transform: lowercase;
-	float: center;
+  	float: none;
+  	vertical-align: top;
 }
 
-.site-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.navbar-custom .navbar-collapse {
+	text-align: center;
 }
 
-.site-nav li {
-	display: inline;
+.navbar-custom .navbar-nav > li > a {
+  	color:#ddd;
+  	padding-left:20px;
+  	padding-right:20px;
+  	text-align: center;
+  	font-size: 14pt;
+  	letter-spacing: 1pt;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+	background-color:transparent;
+}
+      
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #2d2e2c;
+}
+      
+.navbar-custom .navbar-brand {
+  	color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+  	background-color:#2d2e2c;
+}
+.navbar-custom .icon-bar {
+  	background-color:#ddd;
 }
 
-.site-nav a {
-	color: #ddd;
-	padding-left: 25px;
-	padding-right: 25px;
-	width: 40px;
-}
+/* ------ Post ------- */
 
-/* ----- Side Bar ----- */
-
-/* ----- Post Layout ----- */
 .content {
-	/*margin-top: 40px;*/
 	font-family: font-family: 'Helvetica Neue', serif;
-	float: left;
-	height: 100%;
 	width: 100%;
 	background-color: #fff;
-	padding-bottom: 65px;
+	padding-bottom: 100px;
 }
 
 .content h3 {
-	/*font-style: italic;
-	font-family: font-family: 'Helvetica', serif;
-	letter-spacing: 2px;
-	font-weight: 100;
-	font-size: 24pt;
-	font-weight: 100;*/
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 30px;
 	letter-spacing: 2pt;
@@ -123,9 +126,7 @@ a:hover {
 	font-variant: normal;
 	font-weight: 300;
 	line-height: 30px;
-	margin-top: 25px;
-	margin-left: 35px;
-	width: 63%;
+	margin-bottom: auto;
 }
 
 .content a {
@@ -141,14 +142,6 @@ a:hover {
 	font-size: 12pt;
 	font-weight: 200;
 	display: inline-block;
-	margin-left: 35px;
-	width: 63%;
-}
-
-.content-date {
-	font-size: 12pt;
-	margin-left: 35px;
-	width: 63%;
 }
 
 .content-text a {
@@ -159,13 +152,55 @@ a:hover {
 	color: #62cfc9;
 }
 
+.content-date {
+	font-size: 12pt;
+}
+
+/* ----- Sidebar ----- */
+.style-bar {
+	font-family: font-family: 'Helvetica', serif;
+	font-size: 11pt;
+	font-weight: 200;
+}
+
+.style-bar h3 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	font-variant: normal;
+	font-weight: 200;
+	line-height: 30px;
+	text-align: center;
+	padding-bottom: 5px;
+	border-bottom: 1px dashed #2d2e2c;
+}
+
+.bar-content {
+	margin-top: 10px;
+	padding-left: 30px;
+}
+
+.selfie {
+	width: 95%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	border: 2px solid #737671;
+	margin-bottom: 20px;
+}
+
+.about-links {
+	text-align: center;
+}
+
+
 /* ----- Code Format ----- */
 pre,
 code {
     font-size: 15px;
     border-radius: 3px;
     background-color: #eef;
-    font-family: 'Anonymous Pro', ;
+    /*font-family: 'Anonymous Pro', ;*/
     margin: 5px 5px 5px 5px;
 }
 
@@ -246,3 +281,6 @@ pre {
 .highlight .vg { color: #008080 } /* Name.Variable.Global */
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+
+
+

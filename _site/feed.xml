@@ -5,8 +5,8 @@
     <description>A twenty year-old who loves to drink boba and talk about her life.</description>
     <link>http://mimiduong.me/</link>
     <atom:link href="http://mimiduong.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jul 2015 15:16:13 -0700</pubDate>
-    <lastBuildDate>Wed, 29 Jul 2015 15:16:13 -0700</lastBuildDate>
+    <pubDate>Fri, 31 Jul 2015 07:49:27 -0700</pubDate>
+    <lastBuildDate>Fri, 31 Jul 2015 07:49:27 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -27,13 +27,19 @@
 
 </description>
         <pubDate>Sun, 26 Jul 2015 03:49:45 -0700</pubDate>
-        <link>http://mimiduong.me/jekyll/update/2015/07/26/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://mimiduong.me/jekyll/update/2015/07/26/welcome-to-jekyll.html</guid>
+        <link>http://mimiduong.me/linux/2015/07/26/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://mimiduong.me/linux/2015/07/26/welcome-to-jekyll.html</guid>
+        
+        <category>ubuntu</category>
+        
+        <category>lamp</category>
+        
+        <category>setup</category>
+        
+        <category>tasksel</category>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>linux</category>
         
       </item>
     
@@ -72,10 +78,7 @@
     
       <item>
         <title>Easiest Way To Install Lamp On Ubuntu</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/media/lamp.jpg&quot; width=&quot;85%&quot; /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-LAMP(Linux, Apache, MySQL, PHP or Perl) is one of the most essential servers needed by the web developers or web entrepreneurs around the globe. This tutorial explains one of the easiest ways to install LAMP on Ubuntu. Because Ubuntu uses Linux as it’s kernel we are done with the Linux part ;) .&lt;/p&gt;
+        <description>&lt;p&gt;LAMP(Linux, Apache, MySQL, PHP or Perl) is one of the most essential servers needed by the web developers or web entrepreneurs around the globe. This tutorial explains one of the easiest ways to install LAMP on Ubuntu. Because Ubuntu uses Linux as it’s kernel we are done with the Linux part ;) .&lt;/p&gt;
 
 &lt;p&gt;Install tasksel on your system:&lt;/p&gt;
 

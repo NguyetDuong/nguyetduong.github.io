@@ -1,11 +1,13 @@
 # Site settings
 title: Nguyet Minh Duong
 email: nguyetduong.minh@gmail.com
+tag: keep my boba in check
 description: A twenty year-old who loves to drink boba and talk about her life.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://mimiduong.me" # the base hostname & protocol for your site
 twitter_username: sinnto
 github_username:  nguyetduong
+linkedin_username: nguyetduong
 
 # Build settings
 markdown: kramdown

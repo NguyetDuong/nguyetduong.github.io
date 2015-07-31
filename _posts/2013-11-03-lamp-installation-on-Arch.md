@@ -2,10 +2,8 @@
 layout: post
 title: Lamp Installation on Arch 
 description: Linux, Apache, MySQL/MariaDB, PHP. In short LAMP, a complete Open Source solution for web-developer.
-image: /assets/media/Lamp.jpg
 categories: [linux]
 tags: [Arch, lamp, setup, php, mariadb, appache, mysql ]
-
 ---
 *Lorem ipsum dolor sit amet, consectetur adipiscing elit*. Praesent nec neque hendrerit, tempor arcu quis, volutpat metus. Cras in laoreet justo. <u>Ut efficitur urna ut enim interdum</u>, sed feugiat mauris dictum. Fusce imperdiet leo quis ligula viverra sodales. **Etiam quis maximus mauris**. Nullam eget tincidunt lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum commodo massa magna, vitae hendrerit sapien egestas non. Nam consequat, risus et eleifend fermentum, mi nulla consequat massa, ornare egestas leo lorem id lorem. Nulla rhoncus libero nunc, nec bibendum diam varius eget. Vestibulum vulputate felis quis felis ultrices interdum.
 
