@@ -4,4 +4,6 @@ title: Archive
 permalink: /archive/
 ---
 
-lmao. This should have directed to you my archive. Obviously it didn't work as intended. Whooooopppsss!!
+{% for post in site.posts %}
+  * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
+{% endfor %}

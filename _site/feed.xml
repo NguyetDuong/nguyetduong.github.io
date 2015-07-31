@@ -5,8 +5,8 @@
     <description>A twenty year-old who loves to drink boba and talk about her life.</description>
     <link>http://mimiduong.me/</link>
     <atom:link href="http://mimiduong.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 31 Jul 2015 13:43:35 -0700</pubDate>
-    <lastBuildDate>Fri, 31 Jul 2015 13:43:35 -0700</lastBuildDate>
+    <pubDate>Fri, 31 Jul 2015 16:16:20 -0700</pubDate>
+    <lastBuildDate>Fri, 31 Jul 2015 16:16:20 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -26,17 +26,17 @@
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Sun, 26 Jul 2015 03:49:45 -0700</pubDate>
+        <pubDate>Sun, 26 Jul 2015 00:00:00 -0700</pubDate>
         <link>http://mimiduong.me/2015/07/26/welcome-to-jekyll.html</link>
         <guid isPermaLink="true">http://mimiduong.me/2015/07/26/welcome-to-jekyll.html</guid>
         
-        <category>ubuntu</category>
+        <category>Second</category>
         
-        <category>lamp</category>
+        <category>Test</category>
         
-        <category>setup</category>
+        <category>Treat</category>
         
-        <category>tasksel</category>
+        <category>What</category>
         
         
       </item>
@@ -55,19 +55,13 @@
         <link>http://mimiduong.me/2013/11/03/lamp-installation-on-Arch.html</link>
         <guid isPermaLink="true">http://mimiduong.me/2013/11/03/lamp-installation-on-Arch.html</guid>
         
-        <category>Arch</category>
+        <category>Second</category>
         
-        <category>lamp</category>
+        <category>Test</category>
         
-        <category>setup</category>
+        <category>Color</category>
         
-        <category>php</category>
-        
-        <category>mariadb</category>
-        
-        <category>appache</category>
-        
-        <category>mysql</category>
+        <category>What</category>
         
         
       </item>
@@ -110,13 +104,13 @@ Lastly,start apache2 server:&lt;/p&gt;
         <link>http://mimiduong.me/2013/11/02/easiest-way-to-install-lamp-on-ubuntu.html</link>
         <guid isPermaLink="true">http://mimiduong.me/2013/11/02/easiest-way-to-install-lamp-on-ubuntu.html</guid>
         
-        <category>ubuntu</category>
+        <category>First</category>
         
-        <category>lamp</category>
+        <category>Test</category>
         
-        <category>setup</category>
+        <category>Color</category>
         
-        <category>tasksel</category>
+        <category>What</category>
         
         
       </item>

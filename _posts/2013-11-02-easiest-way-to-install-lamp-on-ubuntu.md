@@ -2,7 +2,7 @@
 layout: post
 title: Easiest Way To Install Lamp On Ubuntu
 description: original post at WOWMORON
-tags: [ubuntu, lamp, setup, tasksel]
+tags: First Test Color What
 comments: true
 ---
 

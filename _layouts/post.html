@@ -13,6 +13,10 @@
 			    <div class="col-md-10">
 			      <div class="content">
 						<h3>{{ page.title }}</h3>
+						
+						{{ page.date | date: "%d %B %Y"}} {% if page.category %}-{% endif %} {{ page.category }} {% if page.tags %}-{% endif %} {% for tag in page.tags %}<a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>{% if forloop.last != true %}, {% endif %} {% endfor %}
+						
+
 						<span class="content-text"><p>{{ content }}</p></span>
 						{% include disqus-comments.html %}
 				</div>
