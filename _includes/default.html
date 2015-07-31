@@ -50,31 +50,6 @@
 
 		</header>
 
-<!-- 		<div class="content">{% for post in site.posts limit:3 %}
-			<a class="title-link" href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-			<p class="content-date">{{ post.date | date: "%d %B %Y"}}</p>
-			
-			<span class="content-text">
-				<p class="content-text">{{ post.content | truncatehtml | truncatewords: 100 }} 
-				<span style="float:right">
-					<a href="{{ post.url }}"><i><br>read more</i></a></span>
-				</p>
-			</span>
-		{% endfor %}</div> -->
-
-
-<!-- 		<div class="hidden-xs">
-			<div class="right-bar">
-			    <h1>Recent Posts</h1>
-			    <ul>
-			        {% for post in site.posts limit:5 %}
-			          <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
-			        {% endfor %}
-			    </ul>
-			</div>
-		</div>
- -->
-
  		<div class="container-fluid">
 		    <div class="row-fluid">
 		        <div class="style-bar hidden-xs col-md-2">
@@ -85,10 +60,10 @@
 		        	<p>A wild bobaholic (and apparently Starbucks now too) on the loose, writing sarcastic, and thoughtful reflections about her life. </p>
 		        	<p class="about-links">{ <a href="/about/">about me</a> } { <a href="">about blog</a> } </p>
 		        	<p><center>
-		        		<a href=""><img width="15%" src="/assets/media/connect/github.png"></a>
-		        		<a href=""><img width="15%" src="/assets/media/connect/instagram.png"></a>
-		        		<a href=""><img width="15%" src="/assets/media/connect/linkedin.png"></a>
-		        		<a href=""><img width="15%" src="/assets/media/connect/twitter.png"></a>
+		        		<a href="https://github.com/nguyetduong"><img width="15%" src="/assets/media/connect/github.png"></a>
+		        		<a href="https://instagram.com/sinnto/"><img width="15%" src="/assets/media/connect/instagram.png"></a>
+		        		<a href="https://www.linkedin.com/in/nguyetduong"><img width="15%" src="/assets/media/connect/linkedin.png"></a>
+		        		<a href="https://twitter.com/sinnto"><img width="15%" src="/assets/media/connect/twitter.png"></a>
 		        	</center></p>
 		        	<p><center>
 		        		<a href=""><img width="15%" src="/assets/media/connect/rss.png"></a>
@@ -123,7 +98,33 @@
 		</div>
 
 
+		<footer class="site-footer">
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<div class="col-md-4">
+						<span class="footer-title">{{ site.title }}</span>
+						<p><a href="mailto:nguyetduong.minh@gmail.com">{{ site.email }}</a></p>
 
+						<p>{ <a href="/about/">about me</a> } { <a href="">about blog</a> }</p>
+					</div>
+					<div class="col-md-4 footer-connect">
+						<p><a href="https://github.com/nguyetduong"><img width="10%" src="/assets/media/connect/white/github.png"> nguyetduong</a></p>
+		        		<p><a href="https://www.linkedin.com/in/nguyetduong"><img width="10%" src="/assets/media/connect/white/linkedin.png"> nguyetduong</a></p>
+		        		<p><a href="https://twitter.com/sinnto"><img width="10%" src="/assets/media/connect/white/twitter.png"> sinnto</a></p>
+					</div>
+					<div class="col-md-4 footer-about">
+						<p>
+							A wild bobaholic (and apparently Starbucks now too) on the loose, writing sarcastic, and thoughtful reflections about her life.
+						</p>
+						<p>
+							follow me <a href="">via RSS</a>
+							<br>
+							follow me <a href="">via BlogLovin'</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
 
 		
 		
