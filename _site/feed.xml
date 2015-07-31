@@ -5,8 +5,8 @@
     <description>A twenty year-old who loves to drink boba and talk about her life.</description>
     <link>http://mimiduong.me/</link>
     <atom:link href="http://mimiduong.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 31 Jul 2015 13:17:09 -0700</pubDate>
-    <lastBuildDate>Fri, 31 Jul 2015 13:17:09 -0700</lastBuildDate>
+    <pubDate>Fri, 31 Jul 2015 13:43:35 -0700</pubDate>
+    <lastBuildDate>Fri, 31 Jul 2015 13:43:35 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -27,8 +27,8 @@
 
 </description>
         <pubDate>Sun, 26 Jul 2015 03:49:45 -0700</pubDate>
-        <link>http://mimiduong.me/linux/2015/07/26/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://mimiduong.me/linux/2015/07/26/welcome-to-jekyll.html</guid>
+        <link>http://mimiduong.me/2015/07/26/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://mimiduong.me/2015/07/26/welcome-to-jekyll.html</guid>
         
         <category>ubuntu</category>
         
@@ -38,8 +38,6 @@
         
         <category>tasksel</category>
         
-        
-        <category>linux</category>
         
       </item>
     
@@ -54,8 +52,8 @@
 &lt;p&gt;Integer laoreet metus vel faucibus tempor. Duis aliquet eget justo et faucibus. Nam et tincidunt tellus. Proin vitae elit id sapien congue hendrerit et eu mi. Nam accumsan pellentesque libero eget elementum. In hac habitasse platea dictumst. Sed interdum lacus massa, sit amet convallis lacus accumsan sed. Integer hendrerit odio nec purus pellentesque, sit amet gravida justo blandit. Mauris sodales hendrerit tortor, ut mollis nunc fermentum feugiat. Nulla facilisi.&lt;/p&gt;
 </description>
         <pubDate>Sun, 03 Nov 2013 00:00:00 -0700</pubDate>
-        <link>http://mimiduong.me/linux/2013/11/03/lamp-installation-on-Arch.html</link>
-        <guid isPermaLink="true">http://mimiduong.me/linux/2013/11/03/lamp-installation-on-Arch.html</guid>
+        <link>http://mimiduong.me/2013/11/03/lamp-installation-on-Arch.html</link>
+        <guid isPermaLink="true">http://mimiduong.me/2013/11/03/lamp-installation-on-Arch.html</guid>
         
         <category>Arch</category>
         
@@ -71,8 +69,6 @@
         
         <category>mysql</category>
         
-        
-        <category>linux</category>
         
       </item>
     
@@ -111,8 +107,8 @@ Lastly,start apache2 server:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://localhost/phptest.php&quot;&gt;http://localhost/phptest.php&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 Nov 2013 00:00:00 -0700</pubDate>
-        <link>http://mimiduong.me/linux/2013/11/02/easiest-way-to-install-lamp-on-ubuntu.html</link>
-        <guid isPermaLink="true">http://mimiduong.me/linux/2013/11/02/easiest-way-to-install-lamp-on-ubuntu.html</guid>
+        <link>http://mimiduong.me/2013/11/02/easiest-way-to-install-lamp-on-ubuntu.html</link>
+        <guid isPermaLink="true">http://mimiduong.me/2013/11/02/easiest-way-to-install-lamp-on-ubuntu.html</guid>
         
         <category>ubuntu</category>
         
@@ -122,8 +118,6 @@ Lastly,start apache2 server:&lt;/p&gt;
         
         <category>tasksel</category>
         
-        
-        <category>linux</category>
         
       </item>
     

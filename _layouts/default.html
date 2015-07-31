@@ -8,34 +8,8 @@
 
  		<div class="container-fluid">
 		    <div class="row-fluid">
-		        <div class="style-bar hidden-xs col-md-2">
-		        	<!-- ABOUT ME --> 
-		        	<h3 class="style-bar">About Me</h3>
-		        	<img src="/assets/media/selfie.png" class="selfie">
-
-		        	<p>A wild bobaholic (and apparently Starbucks now too) on the loose, writing sarcastic, and thoughtful reflections about her life. </p>
-		        	<p class="about-links">{ <a href="/about/">about me</a> } { <a href="">about blog</a> } </p>
-		        	<p><center>
-		        		<a href="https://github.com/nguyetduong" target="_blank"><img width="15%" src="/assets/media/connect/github.png"></a>
-		        		<a href="https://instagram.com/sinnto/" target="_blank"><img width="15%" src="/assets/media/connect/instagram.png"></a>
-		        		<a href="https://www.linkedin.com/in/nguyetduong" target="_blank"><img width="15%" src="/assets/media/connect/linkedin.png"></a>
-		        		<a href="https://twitter.com/sinnto" target="_blank"><img width="15%" src="/assets/media/connect/twitter.png"></a>
-		        	</center></p>
-		        	<p><center>
-		        		<a href="" target="_blank"><img width="15%" src="/assets/media/connect/rss.png"></a>
-		        		<a href="" target="_blank"><img width="15%" src="/assets/media/connect/bloglovin.png"></a>
-		        	</center></p>
-		        	<!-- END OF ABOUT ME -->
-
-		        	<!-- RECENT POSTS -->
-				    <h3 class="style-bar">Recent Posts</h3>
-				    <ul class="bar-content">
-				        {% for post in site.posts limit:5 %}
-				          <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
-				        {% endfor %}
-				    </ul>
-				    <!-- END OF RECENT POSTS -->
-				</div>
+		        {% include sidebar.html %}
+		        
 			    <div class="col-md-10">
 			      <div class="content">{% for post in site.posts limit:3 %}
 						<a class="title-link" href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
