@@ -16,10 +16,11 @@ html {
 body {
 	min-height: 100%;
 	background-color: #fff;
-	width: 80%;
-	padding-top: 120px;
+	width: 90%;
 	margin: 0px auto;
 }
+
+
 
 a {
 	color: #9ec4bb;
@@ -38,6 +39,7 @@ a:hover {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 100;
 	color: #2d2e2c;
+	padding-top: 120px;
 }
 
 .site-header-general a {
@@ -124,7 +126,7 @@ a:hover {
 	padding-top: 5px;
 }
 
-.content h3 {
+.content h2 {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 30px;
 	letter-spacing: 2pt;
@@ -132,7 +134,16 @@ a:hover {
 	font-variant: normal;
 	font-weight: 300;
 	line-height: 30px;
-	margin-bottom: auto;
+}
+
+.content h3 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	letter-spacing: 2pt;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: 300;
+	line-height: 30px;
 }
 
 .content h4 {
@@ -142,8 +153,9 @@ a:hover {
 	font-style: italic;
 	font-variant: normal;
 	font-weight: 300;
-	line-height: 30px;
+	/*line-height: 30px;*/
 	margin-bottom: auto;
+	color: #2d2e2c;
 }
 
 

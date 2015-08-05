@@ -18,13 +18,16 @@
 							{% for post in site.posts %}	
 								{% for tag in post.tags %}
 									{% if tag == page.tag %}
-										<tr>
+										<tr class="content-text">
 											<td>
-												<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-												<p class="content-date">{{ post.date | date: "%B %e, %Y" }} {% if page.category %}•{% endif %} {{ post.category }} <a href="http://erjjones.github.com{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a>
-												<br/><i>{{ post.summary }}</i></p>
+												<h4 style="color:#2d2e2c;"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+												<p class="content-date">{{ post.date | date: "%B %e, %Y" }} {% if post.category %}•{% endif %} {{ post.category }} <a href="http://erjjones.github.com{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a>
+												
+												<br/><span class="context-text">{{ post.description }}</span>
 
-												<p class="tag-size"><br/><span class="tag-bold">Tags:</span><i class="icon-tags"></i> {% for tag in post.tags %} <a class="icon-tags" href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>{% if forloop.last != true %}, {% endif %} {% endfor %}</p>
+												<p class="tag-size"><br/><span class="tag-bold">Tags:</span><i class="icon-tags"></i> {% for tag in post.tags %} <a class="icon-tags" href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>{% if forloop.last != true %}, {% endif %} {% endfor %}</p></p>
+
+												
 											</td>
 										</tr>
 									{% endif %}
