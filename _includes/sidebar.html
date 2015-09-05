@@ -1,9 +1,13 @@
 <div class="style-bar hidden-xs col-md-10">
 	<!-- ABOUT ME --> 
 	<h3 class="style-bar">Subscribe</h3>
-	<form>
-		<center><input type="text" value="email address"> <input type="submit" value="Submit"></center>
-	</form>
+		<center><div id="SubscriptionBox"><input id="emailInput" type="text" value="email address" name="Email" id="Email"
+ onblur="if (this.value == '') {this.value = 'email address';}"
+ onfocus="if (this.value == 'email address') {this.value = '';}" /> <button onclick="submit();">Submit</button></div>
+ 	<div id="SubscriptionComplete" style="display:none">Success! Thank you for subscribing to my blog. You will receive an email everytime a new post is uploaded.</div>
+
+	</center>
+	
 	<h3 class="style-bar">About Me</h3>
 	<img src="/assets/media/selfie.png" class="selfie">
 
