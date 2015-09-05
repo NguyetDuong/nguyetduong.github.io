@@ -18,4 +18,15 @@
 	<script type="text/javascript" async defer  data-pin-color="red" data-pin-height="28" data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>
 
 	<link href='http://fonts.googleapis.com/css?family=Anonymous+Pro' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript">
+    Parse.initialize("RVDiJt93x1zEUyVb153XYrhfvOTrjQkAIhlgznIE", "zFq5GEwLU8dZGe3vxdUPrI4eEYnf2Vg4wzkjNteP");
+    
+    var TestObject = Parse.Object.extend("TestObject");
+	var testObject = new TestObject();
+	testObject.save({foo: "bar"}).then(function(object) {
+	  alert("yay! it worked");
+	});
+    });
+  </script>
 </head>
