@@ -201,6 +201,35 @@
 					<p class="rss-subscribe">follow me <a href="/feed.xml">via RSS</a>
 					<br>
 					follow me <a href="http://www.bloglovin.com/blog/14329265/?claim=enzvzch53e2">via BlogLovin'</a>
+					<br>
+					follow me <!-- Trigger the modal with a button -->
+					<button type="button" class="rss-subscribe btn btn-link btn-md" data-toggle="modal" data-target="#myModal">via email</button>
+
+					<!-- Modal -->
+					<div id="myModal" class="modal fade" role="dialog">
+					  <div class="modal-dialog">
+
+					    <!-- Modal content-->
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal">&times;</button>
+					        <h4 class="modal-title">Subscribe!</h4>
+					      </div>
+					      <div class="modal-body">
+					        <p><center><div id="SubscriptionBoxFooter"><input id="emailInputFooter" type="text" value="email address" name="Email" id="Email"
+							 onblur="if (this.value == '') {this.value = 'email address';}"
+							 onfocus="if (this.value == 'email address') {this.value = '';}" /> <button onclick="submitFooter();">Submit</button></div>
+							 	<div id="SubscriptionCompleteFooter" style="display:none">Success! Thank you for subscribing to my blog. You will receive an email everytime a new post is uploaded.</div>
+
+								</center></p>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+
+					  </div>
+					</div>
 				</p>
 			</div>
 		</div>

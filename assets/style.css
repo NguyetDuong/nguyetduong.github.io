@@ -32,6 +32,11 @@ a:hover {
 	text-decoration: none;
 }
 
+a:visited {
+	color: #9ec4bb;
+	text-decoration: none;
+}
+
 /* ----- Header ----- */
 .site-header-general {
 	width: 100%;
@@ -114,6 +119,30 @@ a:hover {
 
 .navbar-undercase {
 	text-transform: lowercase;
+}
+
+/* ------ Popup Subscription ------- */
+
+.btn-link {
+	color: #9ec4bb;
+	font-family: 'Helvetica Neue', serif;
+	font-size: 11pt;
+	font-weight: 100;
+	margin-left: -12px;
+	margin-top: -3px;
+}
+
+.btn-link:hover {
+	color: #9ec4bb;
+	text-decoration: none;
+}
+
+.modal-title {
+	color: #2d2e2c;
+}
+
+.modal-body {
+	color: #000;
 }
 
 /* ------ Post ------- */
