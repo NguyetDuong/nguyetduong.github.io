@@ -22,7 +22,7 @@ body {
 
 
 
-a {
+a:link {
 	color: #9ec4bb;
 	text-decoration: none;
 }
@@ -33,6 +33,11 @@ a:hover {
 }
 
 a:visited {
+	color: #9ec4bb;
+	text-decoration: none;
+}
+
+a:active {
 	color: #9ec4bb;
 	text-decoration: none;
 }
