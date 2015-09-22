@@ -14,7 +14,7 @@ Don't worry, I'm a *professional* (notice the sarcasm). I have had a long histor
 
 I apologize in advance, this will be one of my longer posts :)
 
-<center><img src="{{page.image}}" width="70%" style="padding-top: 30px; padding-bottom:30px"/></center>
+<center><img src="{{page.image}}" width="70%" /></center>
 
 I figure if you are reading this post, you are curious as to my goals, intentions, and topic for this blog. Unless I never update my blog and this remains as my only post. (I really hope that doesn't happen.) So to make it easier on you, I broke down this topic into sections so it can be easily navigated. This post is primarily about my blog, and less about me. [Click here if you want to read more about me!](/about/)
 
