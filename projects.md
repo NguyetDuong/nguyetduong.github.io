@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Projects
+image: /assets/media/about/about_me_img_2.jpg
 permalink: /projects/
 ---
 
-Sorry, this page will be up soon with all of the projects I have worked on! While you are waiting... can I entertain you with [some funny posts](http://google.com)?
+*coming soon*
