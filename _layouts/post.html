@@ -14,7 +14,7 @@
 			      <div class="content">
 						<h2>{{ page.title }}</h2>
 						
-						<p class="content-date">{{ page.date | date: "%d %B %Y"}} {% if page.tags %}•{% endif %} {% for tag in page.tags %}<a href="/tag/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>{% if forloop.last != true %} {% endif %} {% endfor %}</p>
+						<p class="content-date">{{ page.date | date: "%d %B %Y"}} {% if page.tags %}•{% endif %} {% for tag in page.tags %}<a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>{% if forloop.last != true %} {% endif %} {% endfor %}</p>
 						
 
 						<span class="content-text"><p>{{ content }}</p></span>

@@ -3,9 +3,7 @@ layout: post
 title:  "Shengkee, the Source of My Addiction"
 description: An explanation as to why I am addicted to Milk Tea. 
 category: boba, story
-tags: 
-- milktea
-- story 
+tags: [ milktea, story ]
 image: /assets/media/addictions/bobacups.jpg
 comments: true
 ---

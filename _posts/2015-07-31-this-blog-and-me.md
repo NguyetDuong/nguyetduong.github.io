@@ -3,8 +3,7 @@ layout: post
 title:  This Blog & Me
 description: An introduction to my blog, and what direction I'm taking my blog.
 category: site-management
-tags:
-- updates
+tags: [ updates ]
 image: /assets/media/this_blog_and_me/img.png
 comments: true
 ---
