@@ -13,8 +13,7 @@
 			    <div class="col-md-2">
 			      <div class="content">{% for post in site.posts limit: 5 %}
 						<a class="title-link" href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-						<p class="content-date">{{ post.date | date: "%d %B %Y"}} {% if post.tags %}•{% endif %} {% for tag in post.tags %}<a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>{% if forloop.last != true %} {% endif %} {% endfor %}</p>
-						<p class="content-date"></p>
+						<p class="content-date">{{ post.date | date: "%d %B %Y"}} {% if post.tags %}•{% endif %} {% for tag in post.tags %}<a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>{% if forloop.last != true %}, {% endif %} {% endfor %}</p>
 						
 						<span class="content-text">
 							<p class="content-text">{{ post.content | truncatehtml | truncatewords: 90 }} 
