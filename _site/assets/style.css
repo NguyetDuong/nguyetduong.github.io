@@ -209,6 +209,7 @@ a:active {
 	border-bottom: 1px solid #ddd;
 	padding-bottom: 20px;
 	margin-top: -20px;
+	width: 100%;
 }
 
 .content-text a {
