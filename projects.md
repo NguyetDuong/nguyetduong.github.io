@@ -5,4 +5,4 @@ image: /assets/media/about/about_me_img_2.jpg
 permalink: /projects/
 ---
 
-*coming soon*
+###Text2Learn
