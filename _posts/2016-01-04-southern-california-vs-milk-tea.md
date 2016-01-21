@@ -46,13 +46,13 @@ But here is a general overall review:
 
 1. Overall: ★★★★★
 
-   This place was **great**. I got the **Jasmine Milk Tea** three times. If you know what you like, then you will most definitely enjoy your drink. I went here on two different occasions, in two different locations. **Both locations have the same consistancy**, which is awesome! The milk tea was good, and the boba was the perfect texture, flavor, and chewiness. It was definitely worth the wait. *Tip: order over the phone if you don't have the time, and a lot of people are with you! ($10+ orders only).*
+   This place was **great**. I got the **Jasmine Milk Tea** three times. If you know what you like, then you will most definitely enjoy your drink. I went here on two different occasions, in two different locations. **Both locations have the same consistency**, which is awesome! The milk tea was good, and the boba was the perfect texture, flavor, and chewiness. It was definitely worth the wait. *Tip: order over the phone if you don't have the time, and a lot of people are with you! ($10+ orders only).*
 
    However some of their drinks are very particular, such as the **Taro Milk Tea** and **Coffee Milk Tea**. I can see how the Taro Milk Tea can be good, because it had actual taro pieces inside the drink, but that was just not for me. In addition to this, I felt like both the Taro Milk Tea and Coffee Milk Tea were **too sweet**. 
 
 2. Milk Tea: ★★★★☆
    
-   My **Jasmine Fresh Milk Tea** was perfect. It was perfect in consistancy, in how much milk was in the drink, and how sweet it was. It had the taste that was exactly at the perfect point where it tasted good -- and anymore milk would have made it watery, and anymore sugar would have made it sugar water. So it was quite impressive as to how they made this specific milk tea so perfect. 
+   My **Jasmine Fresh Milk Tea** was perfect. It was perfect in consistency, in how much milk was in the drink, and how sweet it was. It had the taste that was exactly at the perfect point where it tasted good -- and anymore milk would have made it watery, and anymore sugar would have made it sugar water. So it was quite impressive as to how they made this specific milk tea so perfect. 
 
    On the other hand, I also bought a **Coffee Milk Tea** (as a wild card) at my first time there, and saved it for the next day. My first sip made me cringe -- my impression of it was simply just **sugary milk with a taste of coffee**. It's coffee milk tea, I am expecting it to be a bit more bitter! Instead, it was even sweeter than my jasmine milk tea and my friend's brown sugar milk tea! I literally threw away the drink before a quarter of it was drank. It felt too slimy, and sweet for my taste. Needless to say, I was super disappointed on my second drink at Half & Half. But I also recognize that coffee is an off choice in flavor, so I should not hold it against Half & Half too much. Mostly since all of the Jasmine Fresh Milk Tea that I have ordered were good -- and I ordered like three of them. 
 
@@ -62,7 +62,7 @@ But here is a general overall review:
 
    In addition to this, the boba itself is not too hard or too soft, which is a huge plus because this is the hardest part in making boba good. The texture can completely ruin the drink because I'd spend days dodging the boba itself because I didn't want to chew it. 
 
-4. Consistancy: ★★★★★
+4. Consistency: ★★★★★
 
    This is what gets me to come back to the shop over and over again. I went to this chain in two different locations, and have ordered similar drinks both times. The taste stays the same, even if I put in the fridge for the night. The biggest difference was probably the fact that by leaving it in the fridge, the drink was a bit more watery -- which is totally my fault. But it was good nonetheless! 
 
@@ -104,7 +104,7 @@ Here is my broken down review:
 
    Sadly, this is the shop's only plus. And I do not like the actual tapioca balls enough to come here for it. 
 
-4. Consistancy: ★★★★★
+4. Consistency: ★★★★★
 
    Like I mentioned above, four out of five of us got a Jasmine Milk Tea. And we all tried each other's drink. And it all tasted the same -- which is good if you like the drinks here. It seems that regardless of how many orders were placed, they were able to recreate the drink without any problems. 
 
@@ -145,7 +145,7 @@ OK... I messed this one up pretty bad. The drink I usually do my reviews on is w
 
    I really don't have an opinion on this boba. Like I mentioned above, the boba is *actually* honey boba -- meaning it is actually sweet. At the same time, the boba was not hard or too soft. My only complaint here is that they give too much boba as someone who does not like a lot of boba in their drinks. 
 
-4. Consistancy: N/A
+4. Consistency: N/A
 
    Unfortunately for this shop, we all got a different drink and it was not exactly good enough for us to make a second trip out of the way to get it. I do not have an idea of how consistant the drink is. 
 
