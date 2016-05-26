@@ -178,6 +178,7 @@ a:active {
 	font-variant: normal;
 	font-weight: 300;
 	line-height: 30px;
+	margin-top: 10px;
 }
 
 .content h4 {
@@ -231,8 +232,8 @@ a:active {
 }
 
 .content img {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 15px;
+	padding-bottom: 10px;
 }
 
 /* ----- Sidebar ----- */

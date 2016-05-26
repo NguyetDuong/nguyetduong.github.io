@@ -4,19 +4,17 @@ title: Contact Me
 permalink: /contact/
 ---
 
-I love all emails -- whether it is to improve on my website, to tell me how shitty my writing is (trust me, I hear this often) or to connect with me. I have a weird obsession with emails and the need to reply to *everything*, so I will probably reply to every single one. Don't feel shy, mail away!! 
+<h3> Let's Connect! </h3>
 
-(*A really random thought but related to this somewhat... I think I have too many email addresses. Help!?*)
+Hey! Have something interesting to say? Email me at the address below and I'll be sure to reply to you! I love all emails, so feel free to hit the send button.
 
-Of course, if you just have a short blurb/comment, feel free to tweet at me (**@sinnto**). Then we can lose all the formality (if there's ever formality when it comes to me) and get straight to the point. 
+Of course, if you just want to shoot a comment, tweet at me: **@sinnto**. 
 
-*Looking for a topic to talk to me about?* Milk tea is always a great topic to talk to me about. I can literally (and will) talk for hours about milk tea. Or [League of Legends](http://pvp.net). Or [Naruto](https://en.wikipedia.org/wiki/Naruto). Or fashion (or lack of). Or business. 
+You can email me about my personal blog, my (soon to be) YouTube channel, or business. 
 
 <br>
 
 ####Email Addresses
 <br>
 
-*For professional inquiries & blog related things:* [nguyetduong.minh@gmail.com](mailto:nguyetduong.minh@gmail.com)
-
-*For Girls Who Code:* [nguyet.duong@girlswhocode.com](mailto:nguyet.duong@girlswhocode.com)
+*For professional inquiries & blog related things:* [nguyetduong.minh (at) gmail.com](mailto:nguyetduong.minh@gmail.com)
